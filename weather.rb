@@ -17,11 +17,13 @@ post '/weather' do
 
  	if(@weather == 'sunny')
  		erb :sunny
- 	if(@weather == 'fair')
+ 	elsif(@weather == 'fair')
  		erb :sunny
  	elsif (@weather == 'cloudy')
  		erb :cloudy
  	elsif (@weather == 'mostly cloudy')
+ 		erb :cloudy
+ 	elsif (@weather == 'partly cloudy')
  		erb :cloudy
  	elsif (@weather == 'rainy')
  		erb :rainy

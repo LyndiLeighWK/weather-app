@@ -1,4 +1,16 @@
+<style>
+	body {background-image: url("map.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		background-attachment: fixed;
+	}
+	form{
+		text-align: center;
+	}
+</style>
 <form method="post" action="/weather">
-    Enter your location: <input type="text" name="post[location]" />
-    <input type="submit" name="Search" />
+    <h1>What's your Zip Code?</h1> 
+    <input type="text" name="post[location]" />
+    <input type="submit" name="Search"/>
 </form>
