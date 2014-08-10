@@ -1,0 +1,40 @@
+	body{
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		background-attachment: fixed;
+	}	
+	
+	h1{
+		text-align: center;
+		font-family: Tahoma;
+	}
+	span{
+		font-size: 80px;
+	}
+
+.parent {height: 500px;}
+
+.floater {
+    float: left;
+    height: 50%;
+    width: 100%;
+    margin-bottom: -50px;
+}
+
+.child {
+    clear: both;
+    height: 100px;
+}
+#cloudy{
+	color: gray;
+}
+#rainy{
+	color: #336699;
+}
+#snowy{
+	color: gray;
+}
+#sunny{
+	color: #FFCC33;
+}

@@ -1,10 +1,9 @@
 <style>
-	body {background-image: url("sunny.png");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center center;
-		background-attachment: fixed;
-	}
-	h1{text-align: center;}	
+	body {background-image: url("sunny.png");}	
 </style>
-<h1>It's <%= @temp %> &deg; F &amp; Sunny</h1>
+<div class = "parent">
+<div class="floater"></div>
+<div class = "child">
+<h1 id="sunny"><span><%= @temp %>&deg; F</span><br> &amp; Sunny</h1>
+</div>
+</div>

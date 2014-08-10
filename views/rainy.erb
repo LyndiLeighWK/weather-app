@@ -1,10 +1,8 @@
 <style>
-	body {background-image: url("rainy.png");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center center;
-		background-attachment: fixed;
-	}
-	h1{text-align: center;}	
+	body {background-image: url("rainy.png");}
 </style>
-<h1>It's <%= @temp %> &deg;F &amp; Rainy</h1>
+<div class = "parent">
+<div class = "child">
+<h1 id="rainy"><span><%= @temp %>&deg;F</span><br> &amp; Rainy</h1>
+</div>
+</div>
