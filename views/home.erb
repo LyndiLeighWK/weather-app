@@ -1,16 +1,14 @@
 <style>
 	body {background-image: url("map.png");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center center;
-		background-attachment: fixed;
-	}
-	form{
-		text-align: center;
 	}
 </style>
+<div class = "parent">
+<div class="floater"></div>
+<div class = "child">
 <form method="post" action="/weather">
-    <h1>What's your Zip Code?</h1> 
-    <input type="text" name="post[location]" />
-    <input type="submit" name="Search"/>
+    <h1 id = "location">Where are you?</h1> 
+    <input type="text" name="post[location]" placeholder="Zip Code"/>
+    <input id="submit_button" type="submit" name="Search" value="Submit"/>
 </form>
+</div>
+</div>

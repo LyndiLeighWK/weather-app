@@ -4,10 +4,15 @@
 		background-position: center center;
 		background-attachment: fixed;
 	}	
-	
+	form{
+		text-align: center;
+	}
 	h1{
 		text-align: center;
 		font-family: Tahoma;
+	}
+	input{
+		line-height: 25px;
 	}
 	span{
 		font-size: 80px;
@@ -29,11 +34,20 @@
 #cloudy{
 	color: gray;
 }
+#location{
+	font-size: 48px;
+	color: white;
+	font-weight: 300;
+}
 #rainy{
 	color: #336699;
 }
 #snowy{
 	color: gray;
+}
+#submit_button{
+	color: white;
+	background: #99CCCC; 
 }
 #sunny{
 	color: #FFCC33;
