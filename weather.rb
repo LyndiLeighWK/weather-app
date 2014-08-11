@@ -40,9 +40,3 @@ post '/weather' do
  	end
 end
 
-#next steps
-#add temp method and post data to view pages
-#create div for temp and weather condition and center vertically on page
-#stylize view for default page
-#stylize H1
-#stylize home page

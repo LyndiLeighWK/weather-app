@@ -34,6 +34,9 @@
 #cloudy{
 	color: gray;
 }
+#form_input{
+	width: 200px;
+}
 #location{
 	font-size: 48px;
 	color: white;
