@@ -33,6 +33,8 @@ post '/weather' do
  		erb :cloudy
  	elsif (@weather == 'rain')
  		erb :rainy
+ 	elsif (@weather == 'light rain with thunder')
+ 		erb :rainy
  	elsif (@weather == 'snowy')
  		erb :snowy
  	else
